@@ -12,6 +12,8 @@ int main(int argc, char const *argv[])
     printf("\\t ascii value - %d\n", '\t');
     printf("\\b ascii value - %d\n", '\b');
 
+    printf("\\a generates beep - ", '\a');
+
     return 0;
 }
 
