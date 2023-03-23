@@ -10,11 +10,11 @@ int main()
     */
     double cel, far;
     printf("Enter temp in Fahrenheit : ");
-    scanf("%fl", &far);
-    printf("%fl", far);
-    cel = (far - 32) * (5/9);
+    scanf("%lf", &far);
+    
+    cel = (far - 32.0) * (5/9);
 
-    printf("Celsious is %fl", &cel);
+    printf("Celsious is %lf", &cel);
 
     return 0;
 }
