@@ -15,6 +15,7 @@ int main()
     n = 15;
     printf("%d\n", *ptr); //*ptr -> value at ptr
     printf("%d\n", ptr);
+    printf("%d\n", sizeof(ptr));
 
 
 
