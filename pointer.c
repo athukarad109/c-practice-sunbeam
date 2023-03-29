@@ -17,7 +17,18 @@ int main()
     printf("%d\n", ptr);
     printf("%d\n", sizeof(ptr));
 
+    //we are not reccomended to initialize pointer without value
+    // int *ptrr; //not reccomende because it stores garbage -> Wild Pointer
+    int *ptrr = NULL; //We can use this instead -> NUllpointer
 
+    //Generally we have to initialize pointer with type 
+    //Ex int *ptr;
+    //There is void pointer
+    void *ptrv = NULL;
+    //this can be used furthur with any data type
+    printf("%d", *ptr); //here pointer does not know what to read because it does not know type
+    printf("%d", *(int*)ptr); //we can use this instead -> casting
+    //We can use same with any data type
 
     return 0;
 }
